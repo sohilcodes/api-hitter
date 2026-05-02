@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://your-railway-app.up.railway.app/api?url=${encodeURIComponent(url)}`
+      `https://api-gen-omega.vercel.app/api?url=${encodeURIComponent(url)}`
     );
 
     const data = await response.json();
